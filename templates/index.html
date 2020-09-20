@@ -1,11 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-</head>
-<body>
-    <h1>Обучение программированию</h1>
-    <h3>secret: {{secret}}</h3>
-</body>
-</html>
+{% extends "base/base.html" %}
+{% block index %}
+    <h1>Index</h1>
+    <ul>
+        <h2>Обучение программированию</h2>
+        <h3>secret: {{secret}}</h3>
+    </ul>
+{% endblock %}
